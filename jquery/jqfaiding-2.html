@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JQuery1</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <style type="text/css">
+         #circle{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: aqua;
+            margin: 10px;
+        }
+        #squr1{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(247, 140, 158);
+            margin: 10px;
+        }
+        #squr2{
+            width: 150px;
+            height: 150px;
+            background-color: rgb(247, 140, 158);
+            margin: 10px;
+        }
+        #hdntxt{
+            display: none;
+        } 
+    </style>
+</head>
+<body>
+    <!-- <p id="text">My name is Ashwin</p>
+    <button id="btn">fade out text</button>
+    <p id="hdntxt">My name is Ashwin</p>
+    <button id="btn1">fade In</button> -->
+    <div id="circle"></div>
+    <div id="squr1"></div>
+    <div id="squr2"></div>
+
+
+    <p id="text">This is some text</p>
+    <button id="toggle">Toggle text</button>
+   
+   <script type="text/javascript">
+
+    var textshowing = true;
+   
+   
+    
+//       $("#btn").click(function(){
+//           $("#text").fadeOut("slow");
+//      });  
+//      $("#btn1").click(function(){
+//           $("#hdntxt").fadeIn("slow");
+//       });  
+
+
+//   $("#btnt").click(function(){
+//         if($("#text").css("display")=="none"){
+//             //$("#text").fadeIn();
+        
+//         }else{
+//             $("#text").fadeOut();
+//         }
+//     });
+//            $("#toggle").click(function(){
+
+           
+
+//     if(textshowing){
+
+//         $("#text").fadeOut(function(){
+
+//             textshowing = false;
+//         });
+//         }else{
+//             $("#text").fadeIn(function(){
+
+//             textshowing = true;           
+
+//         });
+//     }
+
+//       });
+
+    $("#circle").click(function(){
+          $("#circle").fadeOut("slow");
+     });  
+
+     $("#circle").click(function(){
+          $("#circle").fadeIn("slow");
+      });  
+
+      $("#squr1").click(function(){
+          $("#squr1").fadeOut("slow");
+     });  
+
+     $("#squr1").click(function(){
+          $("#squr1").fadeIn("slow");
+      });  
+
+        
+
+       
+   
+       
+   
+    </script>
+    
+</body>
+</html>

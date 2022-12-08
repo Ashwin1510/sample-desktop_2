@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>jQuery</title>
+    <!--jquery link -->
+    <script type="text/javascript" src="jquery.min.js"></script> 
+    <style>
+    
+    #circle1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: plum;
+        padding: 50px 0px 0px 50px;
+        margin: 10px;
+        font-size: 40px;
+    }
+    #circle2 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgba(207, 67, 43, 0.815);
+        padding: 50px 0px 0px 50px;
+        margin: 10px;
+        font-size: 40px;
+    }
+    #circle3 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgba(111, 214, 48, 0.687);
+        padding: 50px 0px 0px 50px;
+        margin: 10px;
+        font-size: 40px;
+    }
+    #circle4 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgba(194, 51, 106, 0.61);
+        padding: 50px 0px 0px 50px;
+        margin: 10px;
+        font-size: 40px;
+    }
+    #circle5 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgba(76, 68, 191, 0.687);
+        padding: 50px 0px 0px 50px;
+        margin: 10px;
+        font-size: 40px;
+    }
+    </style>
+   
+
+   
+</head>
+<body>
+    <button id="hideButton">Hide circles</button>
+    <button id="showButton">show circles</button>
+    <div id="circle1">1</div>
+    <div id="circle2">2</div>
+    <div id="circle3">3</div>
+    <div id="circle4">4</div>
+    <div id="circle5">5</div>
+    
+   <script type="text/javascript">
+
+   $("#circle1").click(function(){
+    $("#circle1").css("display","none");
+    
+    });
+    $("#circle2").click(function(){
+    $("#circle1").css("display","block");
+    $("#circle2").css("display","none");
+    });
+   $("#circle3").click(function(){
+    $("#circle2").css("display","block");
+    $("#circle3").css("display","none");
+    });
+   $("#circle4").click(function(){
+    $("#circle3").css("display","block");
+    $("#circle4").css("display","none");
+    });
+   $("#circle5").click(function(){
+    $("#circle4").css("display","block");
+    $("#circle5").css("display","none");
+    $("#circle5").css("display","block");
+    });
+
+   </script>
+
+</body>
+</html>

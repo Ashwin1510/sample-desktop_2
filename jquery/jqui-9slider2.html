@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jqui-slider2</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+    <script src="jquery-ui-1.13.2/jquery-ui/jquery-ui.js"></script>
+
+    <link href="jquery-ui-1.13.2/jquery-ui/jquery-ui.css" rel="stylesheet">
+
+    <style type="text/css">
+
+        #slider
+        {
+            background-color: red;
+            width: 1000px;
+        }
+        #slider :hover
+        {            
+            background-color: rgba(65, 9, 22, 0.199);
+            
+        }
+        #slider :active
+        {
+            background-color: black;
+        }
+        #slider1
+        {
+            background-color: green;
+            width: 1000px;
+        }
+        #slider1 :hover
+        {            
+            background-color: orange;
+        }
+        #slider1 :active
+        {
+            background-color: blue;
+        }
+
+            
+        
+         
+    </style>
+</head>
+    <body>
+        <div id="slider"></div>
+        <div id="slider1"></div>
+    
+            <script type="text/javascript">
+                     $( function() {
+                            $( "#slider" ).slider();
+                        } );
+                        $( function() {
+                            $( "#slider1" ).slider();
+                        } );
+            
+                
+                </script>
+
+    </body>
+</html>
